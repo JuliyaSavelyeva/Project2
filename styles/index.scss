@@ -1,0 +1,42 @@
+@import 'variables';
+@import 'price-card';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: $background-page;
+  color: $text-color-primary;
+}
+
+.green {
+  background-color: $background-price-card1;
+}
+
+.blue {
+  background-color: $background-price-card2;
+}
+
+.orange {
+  background-color: $background-price-card3;
+}
+
+.check-img-green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  background-position: 22px center;
+}
+
+.check-img-blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  background-position: 22px center;
+}
+
+.check-img-orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  background-position: 22px center;
+}

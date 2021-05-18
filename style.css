@@ -1,0 +1,124 @@
+.price-table {
+  display: flex;
+  justify-content: center;
+}
+
+.price-card {
+  background-color: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.08);
+  width: 380px;
+  height: 770px;
+  margin-right: 18px;
+  flex-shrink: 0;
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-card__title-name {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  margin: 0;
+  margin-top: 33px;
+}
+.price-card__title-subname {
+  font-size: 20px;
+  line-height: 24px;
+}
+.price-card__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  margin-top: 33px;
+}
+.price-card__description {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin: 40px 26px 0;
+}
+.price-card__options-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  list-style-type: none;
+}
+.price-card__options-list-item {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  height: 50px;
+  padding-left: 59px;
+  background-repeat: no-repeat;
+  right: 22px;
+  display: flex;
+  align-items: center;
+}
+.price-card__options-list-item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.price-card__order-btn {
+  display: block;
+  margin: 39px auto 0;
+  width: 154px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #141b1c;
+  color: #ffffff;
+}
+
+.green {
+  background-color: #5bb189;
+}
+
+.blue {
+  background-color: #3a6ba5;
+}
+
+.orange {
+  background-color: #ec632a;
+}
+
+.check-img-green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  background-position: 22px center;
+}
+
+.check-img-blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  background-position: 22px center;
+}
+
+.check-img-orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  background-position: 22px center;
+}
+
+/*# sourceMappingURL=style.css.map */
